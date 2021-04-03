@@ -13,7 +13,7 @@
     <p>Lorem ipsum <i><b>Usama</b></i> dolor sit.</p>
     <p>Lorem ipsum <span>Lorem ipsum dolor sit amet.</span><br> dolor sit amet.</p>
     <span>Lorem ipsum dolor sit.</span>
-    <br><br><hr>
+    <br><br>
     <!-- Quotations -->
     <blockquote>Lorem, ipsum dolor.</blockquote>
     <q>Lorem, ipsum dolor.</q>
@@ -32,5 +32,58 @@
     <p>Laptop computer:</p>
     <p><s>Was $995</s></p>
     <p>Now only $375</p>
+    <hr>
+
+    <!-- Chapter 3 List -->
+    <!-- Nesting Lists -->
+    <ol>
+    <li>first</li>
+    <ul>
+        <li>subfirst</li>
+        <li>subfirst</li>
+        <ol><li>sub-subfirst</li></ol>
+    </ul>
+    <li>Second</li>
+    <li>Third</li>
+    </ol>
+    <!-- Definition -->
+    <dl>
+        <dt>Date:</dt>
+        <dd>
+            Raw facts and figures
+        </dd>
+        <dt>Information:</dt>
+        <dd>Processed data</dd>
+    </dl>
+
+    <!-- Chapter 4 Links -->
+    <!-- Links to other web sites -->
+    <a href="http://facebook.com">Facebook</a>
+
+    <!-- Link to other pages of same site -->
+    <a href="Home.html/#footer" target="blank">Home</a>
+
+    <!-- Email Links -->
+    <a href="mailto:">usamarazzaq4300@hotmail/com</a>
+
+    <!-- Linking to specific parts of the same page -->
+    <div>
+        <a name = "head"></a>
+        <h1>Header is here</h1>
+        Click here to go to <a href="#footer">Footer</a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <a name = "footer"></a>
+        <h1>Footer is here</h1>
+        Click here to go to <a href="#head">Header</a>
+    </div>
+
+    <!-- Linking to a Specific Part of Another Page -->
+    <!-- <a href="Home.html">Click me</a> -->
+    <a href="Home.html#footer" target="blank">Click here to go to a Specific Part of Another Page </a>
+
+
 </body>
 </html>
