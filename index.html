@@ -55,7 +55,7 @@
         <dt>Information:</dt>
         <dd>Processed data</dd>
     </dl>
-
+    <hr>
     <!-- Chapter 4 Links -->
     <!-- Links to other web sites -->
     <a href="http://facebook.com">Facebook</a>
@@ -82,7 +82,139 @@
 
     <!-- Linking to a Specific Part of Another Page -->
     <!-- <a href="Home.html">Click me</a> -->
-    <a href="Home.html#footer" target="blank">Click here to go to a Specific Part of Another Page </a>
+    <a href="Home.html#footer" target="blank">Click here to go to Specific Part of Another Page </a>
+    <br><br><br>
+    <hr>
+    <!-- Images Chapter 5 -->
+    <p>
+        Lorem ipsum dolor, <img src="images/2.PNG" width="30%" height="250px" title="Pic of northern areas of pakistan">sit amet consectetur adipisicing elit. Quas, nesciunt?
+    </p>
+
+    <!-- Aliging Images -->
+    <p><img src="images/2.PNG" width="30%" height="250px" title="Pic of northern areas of pakistan" align = "left">Lorem ipsum dolor sit amet.</p>
+    <p style="text-align:left;"><img src="images/2.PNG" width="30%" height="250px" title="Pic of northern areas of pakistan" align = "right">Lorem ipsum dolor sit amet.</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- figure and figure caption -->
+    <figure>
+        <img src="images/2.PNG" width="30%" height="250px" alt="Photograph of
+         two sea otters floating in water">
+        <br />
+         <figcaption>Sea otters hold hands when they
+         sleep so they don't drift away from each
+         other.</figcaption>
+    </figure>
+    <hr>
+    <!-- Tables Chapter 6 -->
+    <table border="1">
+            <tr>
+                <th>Monday</th>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="2">Friday</td>
+                <td>Saturday</td>
+            </tr>
+            <tr>
+                <td colspan="3">Sunday</td>
+            </tr>
+    </table>
+    <br><br>
+
+    <table cellpadding = "5" cellspacing = '5'>
+        <tr style="background-color: rgb(204, 199, 199);">
+            <td></td>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr style="background-color: rgb(204, 199, 199);">
+            <th>6pm-7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>news</td>
+        </tr>
+        <tr style="background-color: rgb(204, 199, 199);">
+            <th>7pm-8pm</th>
+            <td>Comedy</td>
+            <td>news</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><hr></td>
+                <td><hr></td>
+                <td><hr></td>
+            </tr>
+            <tr>
+                <td>1231</td>
+                <td>123123</td3>
+                <td>21312312</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>1231</td>
+                <td>123123</td3>
+                <td>21312312</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <!-- Form Chapter 7 -->
+    <H1>Forms</H1>
+    <form action="">
+        UserName:<input type="text" size="18" maxlength="5"><br><br>
+        password:<input type="password" size="18" placeholder="Enter Password"><br><br>
+        Enter Your Comments here:<br><textarea placeholder="Comments" cols="30" rows="10"></textarea>
+        <input type="radio" value="warid" checked>warid
+        <input type="radio" value="jazz">Jazz
+        <input type="radio" value="zong">zong
+
+        <input type="checkbox" value="warid" checked>warid
+        <input type="checkbox" value="jazz">Jazz
+        <input type="checkbox" value="zong">zong
+        <br><br>
+        <select size = 2 name="" id="" multiple>
+            <option value="first">1</option>
+            <option selected value="second">2</option>
+            <option value="third">3</option>
+        </select>
+        <br><br>
+        Upload Your CV:
+        <input type="file">
+        <br>
+        <input type="submit" value="Submit">
+        <button>Submit</button>
+        <br><br>
+        <fieldset style="width: 25%;">
+            <legend>Contact details</legend>
+            Email:<br />
+            <input type="email" name="email" /><br />
+            <label>Mobile:<br />
+            <input type="text" name="mobile" /></label><br />
+            <label>Telephone:<br />
+            <input type="text" name="telephone" /></label>
+            <br /><br />
+            <input type="submit" value="Submit">
+            </fieldset>
+    </form>
+
+        
+
 
 
 </body>
